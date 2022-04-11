@@ -14,7 +14,7 @@ import smtplib
 from email.message import Message
 ##################################################################################
 
-t = EmailSender('smtp.gmail.com', 587, "sokolim@stredniskola.cz", "Dunajovice49")
+t = EmailSender('smtp.gmail.com', 587, "sokolim@stredniskola.cz", "******")
 
 
 seznam = [] #seznam pro uložení emailů které dostanou z databaze 
